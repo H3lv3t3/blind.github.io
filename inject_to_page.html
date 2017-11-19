@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.cookie.js"></script>
+
+<script>
+  $(document).ready(function(){
+    var CecutientMenuShow = 0;
+    $('#CecutientBtn').click(function(){
+      if(CecutientMenuShow === 0){
+        $('#CecutientWrapper').animate({"height":"40px"}, 500);
+        $('#CecutientBtn').animate({"marginTop":"40px"}, 500);
+        $('#CecutientWrapper').css("visibility","visible");
+        CecutientMenuShow = 1; 
+      } else {
+        $('#CecutientWrapper').animate({"height":"0px"}, 500);
+        $('#CecutientBtn').animate({"marginTop":"0px"}, 500);
+        CecutientMenuShow = 0; 
+      }
+      return false;
+    });
+  });
+</script>
+
+<script src="min.js"></script>
+
+</head>
+<body>
+      <div style="height: 40px;" id="CecutientWrapper">
+          <div id="CecutientBlock">
+            Версия для слабовидящих:
+            <a id="CecutientOn">Вкл</a>
+            <a id="CecutientOff">Выкл</a>
+            Изображения:
+            <a id="ImageOn">Вкл</a>
+            <a id="ImageOff">Выкл</a>
+            Размер шрифта: 
+            <a id="SmallFonts">A</a>
+            <a id="MediumFonts">A</a>
+            <a id="BigFonts">A</a>
+            Цветовая схема:
+            <a id="WhiteStyle">A</a>
+            <a id="BlackStyle">A</a>
+            <a id="BlueStyle">A</a>
+            <a id="GreenStyle">A</a>
+        </div>
+      </div>
+      <a style="margin-top: 0px;" href="#" id="CecutientBtn" title="Версия для слабовидящих" alt="Версия для слабовидящих"></a>
+     <div id="wrapper">
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <div><p>Test message</p></div>
+      <div><img src="http://wallpaper.pickywallpapers.com/ipad/crazy-homer-jumping.jpg"></div>
+     </div> 
+</body>
+</html>

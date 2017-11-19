@@ -1,0 +1,130 @@
+#CecutientWrapper{
+    position:absolute;
+    width:100%;
+    background:#fff;
+    display:block;
+    height:0px;
+    z-index:100;
+    box-shadow: 0px 0px 5px #000;
+    overflow: hidden;
+}
+#CecutientBlock{
+    position:absolute;
+    width:980px;
+    left:50%;
+    margin-left:-490px;
+    font-size: 18px;
+    line-height: 35px;
+    overflow: hidden;
+}
+a#CecutientBtn{
+    position:absolute;
+    left:96%; 
+    /*margin-left:150px;*/
+    -webkit-border-bottom-right-radius: 7px;
+    -webkit-border-bottom-left-radius: 7px;
+    -moz-border-radius-bottomright: 7px;
+    -moz-border-radius-bottomleft: 7px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    box-shadow: 0px -10px #fff, 0px 0px 5px #000;
+    padding: 10px 0px;
+    background: #fff;
+    cursor:pointer;
+    display: inline-block;
+    width: 40px;
+    height: 23px;
+    z-index: 1;
+    background-image: url('blind.png');
+}
+#CecutientOn, #CecutientOff, #ImageOn, #ImageOff{
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    vertical-align: middle;
+    padding: 0px;
+    height: 20px;
+    width: 50px;
+    text-align: center;
+    line-height: 18px;
+    text-decoration: none;
+    margin-top: -2px;
+    border: 1px solid #000;
+    color:#000;
+    cursor: pointer;
+}
+#CecutientOn, #ImageOff{
+    display:inline-block;
+}
+#CecutientOff, #ImageOn{
+    display:none;
+}
+#SmallFonts, #MediumFonts, #BigFonts, #WhiteStyle, #BlackStyle, #BlueStyle, #GreenStyle{
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    display:inline-block;
+    vertical-align: middle;
+    padding: 0px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 18px;
+    text-decoration: none;
+    margin-top: -2px;
+    cursor: pointer;
+}
+#SmallFonts, #MediumFonts, #BigFonts{
+    border: 1px solid #000;
+    color:#000;
+}
+#SmallFonts{
+    font-size:14px;
+}
+#MediumFonts{
+    font-size:19px;
+}
+#BigFonts{
+    font-size:24px;
+}
+#WhiteStyle, #BlackStyle, #BlueStyle, #GreenStyle{
+    font-size:18px;
+}
+#WhiteStyle{
+    border: 1px solid #000;
+    color:#000;
+}
+#BlackStyle{
+    border: 1px solid #000;
+    color:#fff;
+    background-color:#000;
+}
+#BlueStyle{
+    border: 1px solid #063462;
+    color:#063462;
+    background-color:#9DD1FF;
+}
+#GreenStyle{
+    border: 1px solid #A9E44D;
+    color:#A9E44D;
+    background-color:#3B2716;
+}
+#CecutientTop, .CecutientTopMenu{
+    display:none;
+}
+#CecutientTop{
+    position:relative;
+    width:980px;
+    left:50%;
+    margin-left:-490px;
+    font-size:18px;
+}
+.SmallFonts{
+    font-size:14px ;
+}
+.MediumFonts{
+    font-size:18px ;
+}
+.BigFonts{
+    font-size:22px ;
+}
